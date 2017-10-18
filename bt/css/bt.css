@@ -1,0 +1,28 @@
+
+/*
+.jumbotron {
+    background-color: black;
+    color: beige;
+}
+*/
+
+
+.jumbotron {
+/*    background-color: coral;*/
+    background-image: url("../assets/bt.JPG");
+    background-position:center;
+    color: #fff; /*text color*/
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+/*    height: 400px;;*/
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;      
+}
+
+.footer {
+    background-color: darkblue;
+    color: beige
+}
