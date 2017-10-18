@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+/*
+#banner, #nav, #content, #supporting, #footer {
+    padding: 10px;
+}
+*/
+
+.container {
+    padding: 10px;
+}
+
+.item {
+    padding-top: 200px;
+/*    margin-top: 200px;*/
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#banner {
+    background-color:rgba(200,100,200,0.5);
+    width: 600px;
+    height: 200px;
+    clear:both;
+    position:fixed;
+/*    margin-left: 200px;*/
+/*    padding:100px;/*後方讀的會覆蓋前方指令 EX:line5 之 banner*/*/
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#nav {/*左邊*/
+    background-color:cornflowerblue;
+    width: 200px;
+    height: 800px;
+    float:left;
+    margin-top: 200px;
+    margin-left: -200px;
+    position:fixed;
+}
+#nav ul {/*針對nav底下的ul做事情*/
+    padding-left:0px;
+}
+div#nav li{
+    display:block;
+    background-color:darkorange;
+    margin-top: 5px;
+    padding: 5px;
+/*add two lines here*/
+}
+div#nav li a{
+    text-decoration: none;/*無底線*/
+/*    color: blue;*/
+}
+div#nav li:hover {
+    background-color: rgba(150,100,200,1);
+/*    color: black;*/
+}
+/*
+#nav li a:hover {
+    background-color: rgba(150,100,200,1);
+    color: black;
+}
+*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#content {/*中間內文*/
+    background-color: beige;
+    width: 500px;
+    height: 1200px;
+    float:left;
+    margin-top: 200px;
+/*    margin-left: 200px;*/
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+/*    border: 1px solid gray;*/
+    height: auto;
+    width: auto;  
+    float: left;
+    text-align: center;
+}
+div.img img {
+    display: inline;
+    margin: 5px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+/*    transform: translate(-50%, -50%);*/
+    border: 1px solid #ffffff;
+    object-fit: cover;
+}
+div.img a:hover img {
+    border:1px solid darkgray;
+}
+div.img a {
+    text-decoration: none;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#supporting {/*右邊*/
+    background-color: chartreuse;
+    width: 100px;
+    height: 1200px;
+    float:left;
+    margin-top: 200px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#footer {
+    background-color: darkgreen;
+    width: 600px;
+    height: 100px;
+    clear:both;
+}
+
