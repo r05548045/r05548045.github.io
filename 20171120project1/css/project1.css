@@ -127,17 +127,13 @@ p3 {
     font-weight: 600;
 }
 #section1_back{
-    background: #000 url("../assets/section4_3.png")right;
-    padding-left: 50px;
-    padding-top: 100px
-    min-width: 100px;
-    height: 300px;
+    background-image: url("../assets/section4_5.png");
     background-attachment: fixed;
-/*
-    background-position: center;
+/*    min-width: 300px;*/
+/*    min-height: 400px;*/
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
-*/
+    background-size: 500px 400px;
 }
   .container-fluid {
       padding: 60px 50px;
