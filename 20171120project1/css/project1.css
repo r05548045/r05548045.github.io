@@ -35,7 +35,24 @@ p2 {
       font-family:Microsoft JhengHei, Arial;
       color: #303030;
       font-weight: 500;
-      padding-left: 100px;
+      padding-left: 70px;
+      margin-bottom: 30px;
+  }
+p22 {
+      font-size: 30px;
+      text-transform: uppercase;
+      font-family:Microsoft JhengHei, Arial;
+      color: #303030;
+      font-weight: 500;
+      padding-left: 50px;
+      margin-bottom: 30px;
+  }
+p23 {
+      font-size: 60px;
+      text-transform: uppercase;
+      font-family:Microsoft JhengHei, Arial;
+      color: #303030;
+      font-weight: 1000;
       margin-bottom: 30px;
   }
 p3 {
@@ -109,6 +126,19 @@ p3 {
     font-size: 80px;
     font-weight: 600;
 }
+#section1_back{
+    background: #000 url("../assets/section4_3.png")right;
+    padding-left: 50px;
+    padding-top: 100px
+    min-width: 100px;
+    height: 300px;
+    background-attachment: fixed;
+/*
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
   .container-fluid {
       padding: 60px 50px;
       background-color: #FDD1CE;
@@ -122,6 +152,21 @@ p3 {
   }
   .carousel-indicators li.active {
       background-color: #303030;
+  }
+  .panel {
+      border: 3px solid #FF88C2; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #FFB6C1 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
   }
   .navbar {
       margin-bottom: 0;
