@@ -76,7 +76,7 @@
         }
 
         #changeimg1 {
-            background-image: url("/assets/tt1.jpg");
+            background-image: url("assets/tt1.jpg");
             background-attachment: fixed;
             min-height: 1600px;
             background-position: center;
@@ -85,7 +85,7 @@
         }
 
         #changeimg2 {
-            background-image: url("/assets/tt2.jpg");
+            background-image: url("assets/tt2.jpg");
             background-attachment: fixed;
             min-height: 1600px;
             background-position: center;
@@ -93,7 +93,7 @@
         }
 
         #changeimg3 {
-            background-image: url("/assets/tt3.jpg");
+            background-image: url("assets/tt3.jpg");
             background-attachment: fixed;
             min-height: 1600px;
             background-position: center;
@@ -102,7 +102,7 @@
         }
 
         #changeimg4 {
-            background-image: url("/assets/tt4.jpg");
+            background-image: url("assets/tt4.jpg");
             background-attachment: fixed;
             min-height: 1600px;
             background-position: center;
@@ -386,7 +386,8 @@
                 var scroll_position = $(window).scrollTop(); //current position
                 console.log(scroll_position);
                 var target_position = scroll_position / document_height * window_width;
-                if ($('#moved1').position().left > 200) {
+                var target_position2 = $(window).width()/2-$('#fix').width()/2-$('#moved1').width()+50;
+                if ($('#moved1').position().left > target_position2) {
                     $('#moved1').css({
                         'right': $(window).width() / 2 + target_position
                     });
